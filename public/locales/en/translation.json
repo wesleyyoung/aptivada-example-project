@@ -1,0 +1,21 @@
+{
+    "heading": {
+        "title": "React Concept Demo",
+        "subtitle": "Routing, effects, translation, callbacks, memoization, and state management through zustand and immer"
+    },
+    "effectHook": {
+        "title": "Effect Hook Demo",
+        "subtitle": "Clicking the button increments the count stored in the zustand powered state. When the state changes, useEffect triggers a toast notification. Since the counter is stored in state, number of clicks will persist after refresh.",
+        "toastTitle": "Semantic UI Toast",
+        "button": "Demo The Effect Hook"
+    },
+    "memo": {
+        "title": "Memoization",
+        "subtitle": "In this demo we have a component with two different state variables. One is the current paragraph index, and the other is an unrelated counter. When the counter is incremented and the component is re-rendered, it doesn't need to run through the \"expensive\" vowel number generator. Only when the paragraph index is updated does the vowel computation method run, because it has been memoized.",
+        "button": "Increment Paragraph Index",
+        "unrelatedStateButton": "Increment unrelated counter",
+        "preValueHeader": "There are",
+        "postValueHeader": "vowels in this paragraph.",
+        "unrelatedHeader": "Unrelated state value:"
+    }
+}
